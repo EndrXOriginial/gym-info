@@ -1,0 +1,41 @@
+.hero {
+    position: relative;
+    width: 100vw;
+    height: 100dvh;
+
+    .hero-media {
+        position: absolute;
+        top: 0;bottom: 0;left: 0;right: 0;
+    }
+
+    .hero-content {
+        position: relative;
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .hero-content-title {
+            font-size: 27.5rem;
+            color: var(--orange);
+            text-transform: uppercase;
+            position: absolute;
+            top: 50%;left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .hero-content-img {
+            position: absolute;
+            bottom: 0;left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .hero-content-now {
+            position: absolute;
+            top: 50%;left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
