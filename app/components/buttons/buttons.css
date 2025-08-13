@@ -1,0 +1,10 @@
+.button {
+    color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 1px red solid; */
+    border-radius: 4px;
+}
